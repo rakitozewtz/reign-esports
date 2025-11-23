@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="preload"
+      href="/_next/static/media/e4af272ccee01ff0-s.p.woff2"
+      as="font"
+      crossorigin=""
+      type="font/woff2"
+    />
+    <link rel="stylesheet" href="css/2a816cd55bc7e7f9.css" />
+    <link rel="stylesheet" href="https://kit-pro.fontawesome.com/releases/v6.3.0/css/pro.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Jersey+10&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="implement/fonts/gilroy/gilroy.css">
+        <link rel="stylesheet" href="css/style-roster.css">
+    <title>Reign Esports - Our Team</title>
+    <meta
+      name="description"
+      content="Cunoaște echipa de top al Reign Esports: cei mai buni 5 jucători de Fortnite din echipă."
+    />
+    <link
+      rel="icon"
+      href="images/favicon.ico"
+      type="image/x-icon"
+      sizes="512x512"
+    />
+  </head>
+  <body class="__className_f367f3">
+    <div
+      class="w-full overflow-hidden relative min-h-screen flex flex-col justify-start items-center gap-2"
+    >
+      <div
+        class="absolute z-[-1] left-0 top-0 w-[1000px] h-12 rounded-full bg-white blur-[120px] anim-glow"
+      ></div>
+      <div
+        class="absolute z-[-1] left-0 top-28 w-[1000px] h-12 rounded-full bg-blue-500 blur-[120px] anim-glow1"
+      ></div>
+
+      <nav
+        class="top-0 fixed z-50 w-full flex h-max items-center justify-center bg-zinc-900/55 backdrop-blur-xl border-b-2 border-white/[0.1]"
+      >
+        <main
+          class="relative flex items-center justify-center w-full max-w-6xl p-6"
+        >
+          <button
+            class="lg:hidden flex items-center justify-center p-2 text-white hover:text-blue-400 focus:outline-none"
+          >
+            <svg
+              class="w-6 h-6"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+              stroke-width="2"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M4 6h16M4 12h16m-7 6h7"
+              ></path>
+            </svg>
+          </button>
+          <section class="hidden lg:flex items-center gap-5">
+            <a
+              class="opacity-60 hover:opacity-100 hover:text-blue-400 transition-all duration-500 text-lg"
+              href="index.html"
+              >Home</a
+            >
+            <a
+              class="hover:opacity-100 hover:text-blue-400 opacity-60 transition-all duration-500 text-lg"
+              href="roster.html"
+              >Our Team</a
+            >
+          </section>
+        </main>
+      </nav>
+
+      <section
+        class="flex flex-col justify-center items-center gap-5 max-w-6xl relative w-full lg:h-[100vh] p-5 h-[100vh] overflow-x-visible overflow-y-hidden pt-48"
+        id="hero-section"
+      >
+        <div class="absolute inset-0 flex items-center justify-center pointer-events-none z-0 overflow-hidden">
+          <img
+            src="images/3D-PNG-Simbol.png"
+            alt="Reign Logo"
+            class="w-[600px] h-[600px] opacity-10 object-contain animate-breathing"
+          />
+        </div>
+        
+        <div class="reign-logo-above">
+          <img
+            src="images/3D-PNG-REIGNpng.png"
+            alt="Reign Esports Logo"
+            class="w-auto max-w-[220px] md:max-w-[320px] h-[72px] md:h-[104px] object-contain"
+          />
+        </div>
+        
+        <div class="hero-content-wrapper">
+        <h1 class="font-extrabold md:text-6xl text-4xl max-w-4xl text-center relative z-10 hero-title">
+          Our Team
+        </h1>
+        <p class="max-w-4xl text-sm opacity-60 text-center relative z-10 hero-description">
+          Descoperă cei mai buni jucători din echipa Reign Esports. O selecție de top 5
+          atleți care reprezintă excelența și dedicarea noastră pe scena Fortnite.
+        </p>
+        <div
+          class="w-full h-max p-2 flex justify-center items-center gap-2 flex-wrap relative z-10 hero-buttons"
+        >
+          <button
+            onclick="scrollToRoster()"
+            class="flex gap-1 border focus:outline-none items-center justify-center focus:ring-4 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 bg-gray-800/[0.34] text-white border-gray-600 hover:bg-gray-700 hover:border-gray-600 focus:ring-gray-700 text-center group transition-all duration-300"
+          >
+            Scroll Down
+            <svg
+              stroke="currentColor"
+              fill="none"
+              stroke-width="2"
+              viewBox="0 0 24 24"
+              class="transition-transform group-hover:translate-y-0.5 duration-200"
+              height="1em"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"></path>
+            </svg>
+          </button>
+        </div>
+        </div>
+          
+          <section class="socials-section fade-in-element relative z-10 hero-socials">
+        <div class="socials-container">
+          
+          <img
+            class="social-icon discord-blur"
+            src="images/discord-3-d-icon-free-png-10.png"
+            alt="Discord blur"
+          />
+          <div class="social-content discord">
+            <div class="social-title">
+              <span>Link</span> <span>Discord</span>
+            </div>
+            <div class="social-description">
+              Accesează discord-ul organizatiei noastre
+            </div>
+            <a
+              href="https://discord.gg/reignesports25"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="social-button"
+            >
+              <span class="social-button-text">ACCESEAZĂ</span>
+            </a>
+          </div>
+          <img
+            class="social-icon discord-main"
+            src="images/discord-3-d-icon-free-png-30.png"
+            alt="Discord"
+          />
+
+          
+          <img
+            class="social-icon instagram-blur"
+            src="images/glossy-instagram-3-d-render-icon-free-png-10.png"
+            alt="Instagram blur"
+          />
+          <div class="social-content instagram">
+            <div class="social-title">
+              <span>Link</span> <span>insta</span>
+            </div>
+            <div class="social-description">
+              Accesează instagramul organizatiei noastre
+            </div>
+            <a
+              href="https://www.instagram.com/reign_esports25/"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="social-button"
+            >
+              <span class="social-button-text">ACCESEAZĂ</span>
+            </a>
+          </div>
+          <img
+            class="social-icon instagram-main"
+            src="images/glossy-instagram-3-d-render-icon-free-png-30.png"
+            alt="Instagram"
+          />
+
+          
+          <img
+            class="social-icon tiktok-blur"
+            src="images/glossy-tik-tok-icon-3-d-render-free-png2.png"
+            alt="TikTok blur"
+          />
+          <div class="social-content tiktok">
+            <div class="social-title">
+              <span>Link</span> <span>tiktok</span>
+            </div>
+            <div class="social-description">
+              Accesează tiktok-ul organizatiei noastre
+            </div>
+            <a
+              href="https://www.tiktok.com/@reign_esports"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="social-button"
+            >
+              <span class="social-button-text">ACCESEAZĂ</span>
+            </a>
+          </div>
+          <img
+            class="social-icon tiktok-main"
+            src="images/glossy-tik-tok-icon-3-d-render-free-png0.png"
+            alt="TikTok"
+          />
+
+          
+          <img
+            class="social-icon x-com-blur"
+            src="images/glossy-tik-tok-icon-3-d-render-free-png3.png"
+            alt="X.com blur"
+          />
+          <img
+            class="social-icon x-com-main"
+            src="images/gemini-generated-image-5-vbzkb-5-vbzkb-5-vbz-removebg-preview-10.png"
+            alt="X.com"
+          />
+          <div class="social-content x-com">
+            <div class="social-title">
+              <span>Link</span> <span>X.COM</span>
+            </div>
+            <div class="social-description">
+              Accesează x-ul organizatiei noastre
+            </div>
+            <a
+              href="https://x.com/REIGNESPORTS25"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="social-button"
+            >
+              <span class="social-button-text">ACCESEAZĂ</span>
+            </a>
+          </div>
+
+          
+          <img
+            class="social-icon youtube-blur"
+            src="images/youtube.png"
+            alt="YouTube blur"
+          />
+          <div class="social-content youtube">
+            <div class="social-title">
+              <span>Link</span> <span>youtube</span>
+            </div>
+            <div class="social-description">
+              Accesează youtube-ul organizatiei noastre
+            </div>
+            <a
+              href="https://www.youtube.com/@ReignEsports_RN"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="social-button"
+            >
+              <span class="social-button-text">ACCESEAZĂ</span>
+            </a>
+          </div>
+          <img
+            class="social-icon youtube-main"
+            src="images/youtube.png"
+            alt="YouTube"
+          />
+        </div>
+      </section>
+      </section>
+
+      <section id="roster-section" class="min-h-screen w-full max-w-6xl mx-auto px-5 py-12">
+        <div class="roster-container">
+          <div class="roster-content-wrapper">
+            
+            <h2 class="section-title-above staff-title">Staff</h2>
+            <div class="staff-section-above">
+              <div class="pausemenu-interactions">
+                <div class="server-shop">
+                  <span>OWNER</span>
+                  <span>Sterix</span>
+                  <div class="crown-decoration crown-center"></div>
+                  <div class="crown-decoration crown-1"></div>
+                  <div class="crown-decoration crown-2"></div>
+                  <div class="crown-decoration crown-3"></div>
+                  <div class="crown-decoration crown-4"></div>
+                </div>
+                <div class="row">
+                  <div class="staff-card coowner-card">
+                    <span>CO-OWNER</span>
+                    <span>V1pex13</span>
+                    <div class="crown-left"></div>
+                  </div>
+                  <div class="staff-card vipex-card">
+                    <span>Head Of Staff</span>
+                    <span>Zelly</span>
+                    <div class="star-left"></div>
+                  </div>
+                </div>
+                  <div class="row">
+                    <div class="interaction-box">
+                      <span>Moderator</span>
+                      <span>Mihai</span>
+                    </div>
+                    <div class="interaction-box">
+                      <span>Helper</span>
+                      <span>Pequ</span>
+                    </div>
+                  </div>
+              </div>
+            </div>
+            
+            <h2 class="section-title-above roster-title">Elite Roster</h2>
+            <div class="players-container">
+              <div class="players-row">
+                  
+                  <div class="player-wrapper">
+                    <h2 class="player-name-above">Lowey</h2>
+                    <div class="player-card">
+                      <img src="assets/story1.png" alt="Lowey" class="player-image">
+                      <div class="player-content">
+                        <div class="player-stats">
+                          <div class="stat-item">
+                            <i class="fas fa-chart-line"></i>
+                            <span>PR Rating: 50k</span>
+                          </div>
+                          <div class="stat-item">
+                            <i class="fas fa-euro-sign"></i>
+                            <span>Earnings: 5k</span>
+                          </div>
+                          <div class="stat-item">
+                            <i class="fas fa-euro-sign"></i>
+                            <span>Non Official Earnings: 9k</span>
+                          </div>
+                          <div class="stat-item">
+                            <i class="fas fa-trophy"></i>
+                            <span>4x Duo Cash Cup Finalist</span>
+                          </div>
+                          <div class="stat-item">
+                            <i class="fas fa-trophy"></i>
+                            <span>7x Performance Evaluation Finalist</span>
+                          </div>
+                        </div>
+                        <div class="player-quote">
+                          "With 50k PR and 7 Performance Evaluation finals, I've proven consistency at the highest level. My 4 Duo Cash Cup appearances showcase my ability to perform under pressure."
+                        </div>
+                        <div class="player-skills">
+                          <span class="skill-badge">Building Pro</span>
+                          <span class="skill-badge">Editing Expert</span>
+                          <span class="skill-badge">Game Sense Master</span>
+                          <span class="skill-badge">Tournament Winner</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  
+                  <div class="player-wrapper">
+                    <h2 class="player-name-above">Lukq</h2>
+                    <div class="player-card">
+                      <img src="assets/story2.png" alt="Lukq" class="player-image">
+                      <div class="player-content">
+                        <div class="player-stats">
+                          <div class="stat-item">
+                            <i class="fas fa-chart-line"></i>
+                            <span>PR Rating: 40k</span>
+                          </div>
+                          <div class="stat-item">
+                            <i class="fas fa-euro-sign"></i>
+                            <span>Earnings: 3k</span>
+                          </div>
+                          <div class="stat-item">
+                            <i class="fas fa-trophy"></i>
+                            <span>2x Duo Cash Cup Finalist</span>
+                          </div>
+                          <div class="stat-item">
+                            <i class="fas fa-trophy"></i>
+                            <span>2x Performance Evaluation Finalist</span>
+                          </div>
+                        </div>
+                        <div class="player-quote">
+                          "Reaching 40k PR and multiple finals demonstrates my competitive drive. I excel in high-stakes scenarios, consistently delivering when it matters most."
+                        </div>
+                        <div class="player-skills">
+                          <span class="skill-badge">Building Pro</span>
+                          <span class="skill-badge">Editing Expert</span>
+                          <span class="skill-badge">Game Sense Master</span>
+                          <span class="skill-badge">Tournament Winner</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  
+                  <div class="player-wrapper">
+                    <h2 class="player-name-above">Milan</h2>
+                    <div class="player-card">
+                      <img src="assets/story3.png" alt="Milan" class="player-image">
+                      <div class="player-content">
+                        <div class="player-stats">
+                          <div class="stat-item">
+                            <i class="fas fa-chart-line"></i>
+                            <span>PR Rating: 25k</span>
+                          </div>
+                          <div class="stat-item">
+                            <i class="fas fa-euro-sign"></i>
+                            <span>Earnings: 1.5k</span>
+                          </div>
+                          <div class="stat-item">
+                            <i class="fas fa-euro-sign"></i>
+                            <span>Non Official Earnings: 200</span>
+                          </div>
+                          <div class="stat-item">
+                            <i class="fas fa-trophy"></i>
+                            <span>2x Performance Evaluation Finalist</span>
+                          </div>
+                        </div>
+                        <div class="player-quote">
+                          "My 25k PR reflects steady growth and dedication. Making it to Performance Evaluation finals twice shows I can compete with the best and keep improving."
+                        </div>
+                        <div class="player-skills">
+                          <span class="skill-badge">Building Pro</span>
+                          <span class="skill-badge">Editing Expert</span>
+                          <span class="skill-badge">Game Sense Master</span>
+                          <span class="skill-badge">Tournament Winner</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  
+                  <div class="player-wrapper">
+                    <h2 class="player-name-above">Nog</h2>
+                    <div class="player-card">
+                      <img src="assets/story4.png" alt="Nog" class="player-image">
+                      <div class="player-content">
+                        <div class="player-stats">
+                          <div class="stat-item">
+                            <i class="fas fa-chart-line"></i>
+                            <span>PR Rating: 25k</span>
+                          </div>
+                          <div class="stat-item">
+                            <i class="fas fa-euro-sign"></i>
+                            <span>Earnings: 300</span>
+                          </div>
+                          <div class="stat-item">
+                            <i class="fas fa-euro-sign"></i>
+                            <span>Non Official Earnings: 1k</span>
+                          </div>
+                          <div class="stat-item">
+                            <i class="fas fa-trophy"></i>
+                            <span>2x Performance Evaluation Finalist</span>
+                          </div>
+                        </div>
+                        <div class="player-quote">
+                          "At 25k PR with consistent final appearances, I bring reliability and strategic gameplay. My performance in evaluations proves I'm a valuable team player."
+                        </div>
+                        <div class="player-skills">
+                          <span class="skill-badge">Building Pro</span>
+                          <span class="skill-badge">Editing Expert</span>
+                          <span class="skill-badge">Game Sense Master</span>
+                          <span class="skill-badge">Tournament Winner</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  
+                  <div class="player-wrapper">
+                    <h2 class="player-name-above">Gely</h2>
+                    <div class="player-card">
+                      <img src="assets/story5.png" alt="Gely" class="player-image">
+                      <div class="player-content">
+                        <div class="player-stats">
+                          <div class="stat-item">
+                            <i class="fas fa-chart-line"></i>
+                            <span>PR Rating: 15k</span>
+                          </div>
+                          <div class="stat-item">
+                            <i class="fas fa-euro-sign"></i>
+                            <span>Earnings: 500</span>
+                          </div>
+                          <div class="stat-item">
+                            <i class="fas fa-euro-sign"></i>
+                            <span>Non Official Earnings: 300</span>
+                          </div>
+                          <div class="stat-item">
+                            <i class="fas fa-trophy"></i>
+                            <span>3x Reload Quick Cup Finalist</span>
+                          </div>
+                          <div class="stat-item">
+                            <i class="fas fa-trophy"></i>
+                            <span>2x Performance Evaluation Finalist</span>
+                          </div>
+                        </div>
+                        <div class="player-quote">
+                          "With 3 Reload Quick Cup finals and consistent evaluations, I've shown versatility across formats. My 15k PR is just the beginning of my competitive journey."
+                        </div>
+                        <div class="player-skills">
+                          <span class="skill-badge">Building Pro</span>
+                          <span class="skill-badge">Editing Expert</span>
+                          <span class="skill-badge">Game Sense Master</span>
+                          <span class="skill-badge">Tournament Winner</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <footer
+        class="bottom-0 w-full h-max bg-zinc-900/55 backdrop-blur-xl border-t-2 border-white/[0.1] items-center pt-4 pb-4 mt-8"
+      >
+        <div class="p-6 flex w-full flex-col justify-center gap-3">
+          <section
+            class="w-full h-full flex lg:flex-row flex-col justify-between gap-5"
+          >
+            <div
+              class="flex flex-col h-max lg:w-full w-full justify-center lg:items-start items-center"
+            >
+              <h1 class="text-xl font-bold text-white drop-shadow-[0_0_25px]">
+                Reign Esports
+              </h1>
+              <h1
+                class="text-sm text-white/[0.6] lg:text-start text-center w-full"
+              >
+                Fortnite Team & Content Division la
+                <span class="text-blue-300 drop-shadow-[0_0_75px]"
+                  >@reignfortnite</span
+                >
+              </h1>
+            </div>
+          </section>
+          <hr class="flex w-full sm:mx-auto border-gray-700" />
+          <h1
+            class="text-sm text-white/[0.6] lg:text-start text-center lg:flex-row flex-col w-full flex justify-between items-center"
+          >
+            <span>© 2025 Reign Esports — Built for the grind.</span>
+          </h1>
+        </div>
+      </footer>
+    </div>
+        <script src="js/script-roster.js"></script>
+  </body>
+</html>
+
